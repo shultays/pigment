@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Pigment">
+</Property><Property Name="Solution File" Value="C:\Users\Engin\Desktop\emercan\Pigment\Pigment.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Engin\Desktop\emercan\Pigment\Pigment.suo">
+</Property><Property Name="Date" Value="Thursday, August 23, 2012">
+</Property><Property Name="Time" Value="03:30">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Pigment.sln" Description="File successfully backed up as C:\Users\Engin\Desktop\emercan\Pigment\Pigment.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Pigment.suo" Description="File successfully backed up as C:\Users\Engin\Desktop\emercan\Pigment\Pigment.suo.old">
+</Event><Event ErrorLevel="0" Project="directxtest" Source="directxtest.vcproj" Description="Converting project file 'C:\Users\Engin\Desktop\emercan\Pigment\directxtest.vcproj'.">
+</Event><Event ErrorLevel="1" Project="directxtest" Source="directxtest.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="directxtest" Source="directxtest.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="directxtest" Source="directxtest.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="directxtest" Source="directxtest.vcproj" Description="MSB8012: $(TargetName) ('Pigment') does not match the Linker's OutputFile property value 'Release\HLSLDiffusePointLight.exe' ('HLSLDiffusePointLight') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="directxtest" Source="directxtest.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\Engin\Desktop\emercan\Pigment\Release\Pigment.exe') does not match the Linker's OutputFile property value 'Release\HLSLDiffusePointLight.exe' ('C:\Users\Engin\Desktop\emercan\Pigment\Release\HLSLDiffusePointLight.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="directxtest" Source="directxtest.vcproj" Description="Done converting to new project file 'C:\Users\Engin\Desktop\emercan\Pigment\directxtest.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="directxtest" Source="directxtest.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Pigment.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Pigment.sln" Description="Converted">
+</Event></UpgradeLog>

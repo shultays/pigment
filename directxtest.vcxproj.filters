@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="main\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="interfaces">
+      <UniqueIdentifier>{df6064d0-2574-4e15-b02c-afa1216377f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="control">
+      <UniqueIdentifier>{0144f0a7-ecd8-4caa-8b70-78debf073012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="console">
+      <UniqueIdentifier>{f26679bd-8ad5-4979-bd76-0f1cb4827e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bloodworks">
+      <UniqueIdentifier>{8b109128-804c-4290-a39c-e713d11831af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{a467d282-1fa6-4bd4-b287-a94ec6ff8c77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\md3">
+      <UniqueIdentifier>{d61babf3-ffeb-4aef-a93c-dac4458c076e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\SolidX">
+      <UniqueIdentifier>{502b08b9-7043-4efa-a9e4-7b5bc6260472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\terrain">
+      <UniqueIdentifier>{4e642f8d-5334-4e9b-b9c9-1cfb2ca4eaff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\basicx">
+      <UniqueIdentifier>{d5e8f0b6-b7f5-4a77-b826-3aa795648299}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\bullet">
+      <UniqueIdentifier>{91e3b45c-5036-4f34-a0c5-98f74dd34f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\Orbits">
+      <UniqueIdentifier>{831e479d-36a8-49aa-a8c4-b43c3d14405b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shadowtest">
+      <UniqueIdentifier>{8bc1149f-7f36-4a10-b621-416c1886fb5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects\FPSWeapon">
+      <UniqueIdentifier>{12b913a4-3ee2-46c5-ae1c-602a3342e777}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="main0.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawable.cpp">
+      <Filter>interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicShotTestable.cpp">
+      <Filter>interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="HitTestable.cpp">
+      <Filter>interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticShotTestable.cpp">
+      <Filter>interfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInput.cpp">
+      <Filter>control</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>console</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>bloodworks</Filter>
+    </ClCompile>
+    <ClCompile Include="Networks.cpp">
+      <Filter>bloodworks</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintableX.cpp">
+      <Filter>objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadPlayer.cpp">
+      <Filter>objects\md3</Filter>
+    </ClCompile>
+    <ClCompile Include="Flag.cpp">
+      <Filter>objects\md3</Filter>
+    </ClCompile>
+    <ClCompile Include="md3Model.cpp">
+      <Filter>objects\md3</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>objects\md3</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerModel.cpp">
+      <Filter>objects\md3</Filter>
+    </ClCompile>
+    <ClCompile Include="SolidX.cpp">
+      <Filter>objects\SolidX</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>objects\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicX.cpp">
+      <Filter>objects\basicx</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>objects\bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="OrbitX.cpp">
+      <Filter>objects\Orbits</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowVolume.cpp">
+      <Filter>shadowtest</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowVolumeCPU.cpp">
+      <Filter>shadowtest</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowVolumeGPU.cpp">
+      <Filter>shadowtest</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSWeapon.cpp">
+      <Filter>objects\FPSWeapon</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>main\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicShotTestable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="HitTestable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotTestable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticShotTestable.h">
+      <Filter>interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectInput.h">
+      <Filter>control</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>console</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>bloodworks</Filter>
+    </ClInclude>
+    <ClInclude Include="Networks.h">
+      <Filter>bloodworks</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkStructs.h">
+      <Filter>bloodworks</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlPoint.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintableX.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadPlayer.h">
+      <Filter>objects\md3</Filter>
+    </ClInclude>
+    <ClInclude Include="Flag.h">
+      <Filter>objects\md3</Filter>
+    </ClInclude>
+    <ClInclude Include="md3Model.h">
+      <Filter>objects\md3</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>objects\md3</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerModel.h">
+      <Filter>objects\md3</Filter>
+    </ClInclude>
+    <ClInclude Include="SolidX.h">
+      <Filter>objects\SolidX</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>objects\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicX.h">
+      <Filter>objects\basicx</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>objects\bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="OrbitX.h">
+      <Filter>objects\Orbits</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowVolume.h">
+      <Filter>shadowtest</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowVolumeCPU.h">
+      <Filter>shadowtest</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowVolumeGPU.h">
+      <Filter>shadowtest</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSWeapon.h">
+      <Filter>objects\FPSWeapon</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Flag.fx">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="MD3.fx">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="Mesh.fx">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="PostProcess.fx">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shadowCPU.fx">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shadowGPU.fx">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

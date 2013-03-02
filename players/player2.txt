@@ -1,0 +1,7 @@
+./players/anarki/head.md3
+./players/anarki/lower.md3
+./players/anarki/upper.md3
+./players/anarki/anarki_h.tga
+./players/anarki/anarki.tga
+./players/anarki/anarki.tga
+./players/anarki/animation.cfg

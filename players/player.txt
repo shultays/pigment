@@ -1,0 +1,7 @@
+./players/bitterman/head.md3
+./players/bitterman/lower.md3
+./players/bitterman/upper.md3
+./players/bitterman/h_bitterman.tga
+./players/bitterman/bitterman.tga
+./players/bitterman/bitterman.tga
+./players/bitterman/animation.cfg

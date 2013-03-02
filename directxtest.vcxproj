@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>Pigment</ProjectName>
+    <ProjectGuid>{47B840EA-E5B3-4D0E-AE17-3B906C744FD1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(VCInstallDir)bin;$(WindowsSdkDir)bin\NETFX 4.0 Tools;$(WindowsSdkDir)bin;$(VSInstallDir)Common7\Tools\bin;$(VSInstallDir)Common7\tools;$(VSInstallDir)Common7\ide;$(ProgramFiles)\HTML Help Workshop;$(FrameworkSDKDir)\bin;$(MSBuildToolsPath32);$(VSInstallDir);$(SystemRoot)\SysWow64;$(FxCopDir);$(PATH);C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Utilities\bin\x86;</ExecutablePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;</IncludePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;</ReferencePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86;</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;d3d9.lib;d3dx9.lib;winmm.lib;dinput8.lib;dxguid.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)Pigment.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)test.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)HLSLDiffusePointLight.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="FPSWeapon.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="main0.cpp" />
+    <ClCompile Include="Tools.cpp" />
+    <ClCompile Include="Drawable.cpp" />
+    <ClCompile Include="DynamicShotTestable.cpp" />
+    <ClCompile Include="HitTestable.cpp" />
+    <ClCompile Include="StaticShotTestable.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="DirectInput.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Networks.cpp" />
+    <ClCompile Include="PaintableX.cpp" />
+    <ClCompile Include="DeadPlayer.cpp" />
+    <ClCompile Include="Flag.cpp" />
+    <ClCompile Include="md3Model.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerModel.cpp" />
+    <ClCompile Include="SolidX.cpp" />
+    <ClCompile Include="Terrain.cpp" />
+    <ClCompile Include="BasicX.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="OrbitX.cpp" />
+    <ClCompile Include="ShadowVolume.cpp" />
+    <ClCompile Include="ShadowVolumeCPU.cpp" />
+    <ClCompile Include="ShadowVolumeGPU.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FPSWeapon.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Tools.h" />
+    <ClInclude Include="Drawable.h" />
+    <ClInclude Include="DynamicShotTestable.h" />
+    <ClInclude Include="HitTestable.h" />
+    <ClInclude Include="ShotTestable.h" />
+    <ClInclude Include="StaticShotTestable.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="DirectInput.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Networks.h" />
+    <ClInclude Include="NetworkStructs.h" />
+    <ClInclude Include="ControlPoint.h" />
+    <ClInclude Include="PaintableX.h" />
+    <ClInclude Include="DeadPlayer.h" />
+    <ClInclude Include="Flag.h" />
+    <ClInclude Include="md3Model.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerModel.h" />
+    <ClInclude Include="SolidX.h" />
+    <ClInclude Include="Terrain.h" />
+    <ClInclude Include="BasicX.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="OrbitX.h" />
+    <ClInclude Include="ShadowVolume.h" />
+    <ClInclude Include="ShadowVolumeCPU.h" />
+    <ClInclude Include="ShadowVolumeGPU.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Flag.fx" />
+    <None Include="MD3.fx" />
+    <None Include="Mesh.fx" />
+    <None Include="PostProcess.fx" />
+    <None Include="shadowCPU.fx" />
+    <None Include="shadowGPU.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
