@@ -8,7 +8,9 @@ void Game::UpdateDeltaTime() {
   CurrentTime = timeGetTime();
 
   DeltaTime = ((float)CurrentTime - (float)LastTime) * 0.001f * slowfactor;
-
+  if (DeltaTime == 0.0f){
+	  DeltaTime = 0.001f;
+  }
   fpsnow++;
   if(CurrentTime - LastSec > 1000){
     LastSec = CurrentTime;
@@ -449,8 +451,8 @@ void Game::Tick(){
 
   D3DXVECTOR3 oldN = moveCam->Position;
 
-  moveCam->Pitch -= DInput->MouseState.lY / DeltaTime *0.00005f;
-  moveCam->Yaw -= DInput->MouseState.lX / DeltaTime*0.00005f;
+  moveCam->Pitch -= DInput->MouseState.lY  *0.005f;
+  moveCam->Yaw -= DInput->MouseState.lX *0.005f;
 
 
   ActiveCamera->Position += push*DeltaTime*50;
@@ -471,7 +473,6 @@ void Game::Tick(){
     for(int i=0; i<HitTestable::HitTestnum; i++){
 	    HitTestable::allHitTestables[i]->HitTest(oldN, &newN, speed, DeltaTime);
     }
-
   }
   if(speed[3] > 0) onWall = 1;
   moveCam->Position = newN;

@@ -3,6 +3,7 @@
 
 md3Model *Player::weapons = 0;
 PlayerModel  *Player::models = 0;
+
 Player::Player(){
   jumped = 0;
   legangle = 0;

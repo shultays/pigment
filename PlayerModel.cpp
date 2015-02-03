@@ -40,9 +40,7 @@ fstream fanim;
      
      if(fanim.eof()) break;
      if(str[0] >= '0' && str[0] <= '9'){
-         fanim.seekg(position);
-         fanim >> tempi[j][0] >> tempi[j][1] >> tempi[j][2] >> tempi[j][3];
-         fanim.getline(str, 256);
+		 sscanf(str, "%d %d %d %d", &tempi[j][0], &tempi[j][1], &tempi[j][2], &tempi[j][3]);
          j++;
      }
   }
